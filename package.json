@@ -7,11 +7,11 @@
     "author":  "Kahden Vienna",
     "repository":  {
                        "type":  "git",
-                       "url":  "git+https://github.com/KahdenV/Rune.git"
+                       "url":  "git+https://github.com/KahdenV/RuneOS.git"
                    },
-    "homepage":  "https://github.com/KahdenV/Rune#readme",
+    "homepage":  "https://github.com/KahdenV/RuneOS#readme",
     "bugs":  {
-                 "url":  "https://github.com/KahdenV/Rune/issues"
+                 "url":  "https://github.com/KahdenV/RuneOS/issues"
              },
     "keywords":  [
                      "ai-agents",
