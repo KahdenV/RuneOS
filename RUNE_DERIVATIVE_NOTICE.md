@@ -21,8 +21,8 @@ RUNE OS must not be presented as StarNet or as endorsed by the StarNet project.
 ## Update relationship
 
 - `upstream` = androoAGI/starnet
-- `origin` = KahdenV/Rune
-- development branch = `runeos-starnet-base`
+- `origin` = KahdenV/RuneOS
+- foundation branch = `runeos-starnet-base`\n- active rebrand branch = `runeos-rebrand-v1`
 
 The official StarNet application updater is intentionally disabled in this derivative.
 RUNE will eventually use its own update channel.
