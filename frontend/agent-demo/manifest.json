@@ -12665,6 +12665,338 @@
       "../agent-demo/approved-motion/tylerdurden/walk_south-west_4.png",
       "../agent-demo/approved-motion/tylerdurden/walk_south-west_5.png",
       "../agent-demo/approved-motion/tylerdurden/walk_south-west_6.png"
+    ],
+    "kara.blink.south": [
+      "kara/blink_south.png"
+    ],
+    "kara.rot.south": [
+      "kara/rot_south.png"
+    ],
+    "kara.walk.south": [
+      "kara/walk_south_0.png",
+      "kara/walk_south_1.png",
+      "kara/walk_south_2.png",
+      "kara/walk_south_3.png",
+      "kara/walk_south_4.png",
+      "kara/walk_south_5.png",
+      "kara/walk_south_6.png",
+      "kara/walk_south_7.png"
+    ],
+    "kara.rot.south-east": [
+      "kara/rot_south-east.png"
+    ],
+    "kara.walk.south-east": [
+      "kara/walk_south-east_0.png",
+      "kara/walk_south-east_1.png",
+      "kara/walk_south-east_2.png",
+      "kara/walk_south-east_3.png",
+      "kara/walk_south-east_4.png",
+      "kara/walk_south-east_5.png",
+      "kara/walk_south-east_6.png",
+      "kara/walk_south-east_7.png"
+    ],
+    "kara.rot.east": [
+      "kara/rot_east.png"
+    ],
+    "kara.walk.east": [
+      "kara/walk_east_0.png",
+      "kara/walk_east_1.png",
+      "kara/walk_east_2.png",
+      "kara/walk_east_3.png",
+      "kara/walk_east_4.png",
+      "kara/walk_east_5.png",
+      "kara/walk_east_6.png",
+      "kara/walk_east_7.png"
+    ],
+    "kara.rot.north-east": [
+      "kara/rot_north-east.png"
+    ],
+    "kara.walk.north-east": [
+      "kara/walk_north-east_0.png",
+      "kara/walk_north-east_1.png",
+      "kara/walk_north-east_2.png",
+      "kara/walk_north-east_3.png",
+      "kara/walk_north-east_4.png",
+      "kara/walk_north-east_5.png",
+      "kara/walk_north-east_6.png",
+      "kara/walk_north-east_7.png"
+    ],
+    "kara.rot.north": [
+      "kara/rot_north.png"
+    ],
+    "kara.walk.north": [
+      "kara/walk_north_0.png",
+      "kara/walk_north_1.png",
+      "kara/walk_north_2.png",
+      "kara/walk_north_3.png",
+      "kara/walk_north_4.png",
+      "kara/walk_north_5.png",
+      "kara/walk_north_6.png",
+      "kara/walk_north_7.png"
+    ],
+    "kara.rot.north-west": [
+      "kara/rot_north-west.png"
+    ],
+    "kara.walk.north-west": [
+      "kara/walk_north-west_0.png",
+      "kara/walk_north-west_1.png",
+      "kara/walk_north-west_2.png",
+      "kara/walk_north-west_3.png",
+      "kara/walk_north-west_4.png",
+      "kara/walk_north-west_5.png",
+      "kara/walk_north-west_6.png",
+      "kara/walk_north-west_7.png"
+    ],
+    "kara.rot.west": [
+      "kara/rot_west.png"
+    ],
+    "kara.walk.west": [
+      "kara/walk_west_0.png",
+      "kara/walk_west_1.png",
+      "kara/walk_west_2.png",
+      "kara/walk_west_3.png",
+      "kara/walk_west_4.png",
+      "kara/walk_west_5.png",
+      "kara/walk_west_6.png",
+      "kara/walk_west_7.png"
+    ],
+    "kara.rot.south-west": [
+      "kara/rot_south-west.png"
+    ],
+    "kara.walk.south-west": [
+      "kara/walk_south-west_0.png",
+      "kara/walk_south-west_1.png",
+      "kara/walk_south-west_2.png",
+      "kara/walk_south-west_3.png",
+      "kara/walk_south-west_4.png",
+      "kara/walk_south-west_5.png",
+      "kara/walk_south-west_6.png",
+      "kara/walk_south-west_7.png"
+    ],
+    "kara.sit.south": [
+      "kara/sit_south.png"
+    ],
+    "kara.gesture.south": [
+      "kara/gesture_south_0.png",
+      "kara/gesture_south_1.png",
+      "kara/gesture_south_2.png",
+      "kara/gesture_south_3.png",
+      "kara/gesture_south_4.png",
+      "kara/gesture_south_5.png",
+      "kara/gesture_south_6.png",
+      "kara/gesture_south_7.png",
+      "kara/gesture_south_8.png"
+    ],
+    "kara.sit.east": [
+      "kara/sit_east.png"
+    ],
+    "kara.gesture.east": [
+      "kara/gesture_east_0.png",
+      "kara/gesture_east_1.png",
+      "kara/gesture_east_2.png",
+      "kara/gesture_east_3.png",
+      "kara/gesture_east_4.png",
+      "kara/gesture_east_5.png",
+      "kara/gesture_east_6.png",
+      "kara/gesture_east_7.png",
+      "kara/gesture_east_8.png"
+    ],
+    "kara.sit.north": [
+      "kara/sit_north.png"
+    ],
+    "kara.gesture.north": [
+      "kara/gesture_north_0.png",
+      "kara/gesture_north_1.png",
+      "kara/gesture_north_2.png",
+      "kara/gesture_north_3.png",
+      "kara/gesture_north_4.png",
+      "kara/gesture_north_5.png",
+      "kara/gesture_north_6.png",
+      "kara/gesture_north_7.png",
+      "kara/gesture_north_8.png"
+    ],
+    "kara.sit.west": [
+      "kara/sit_west.png"
+    ],
+    "kara.gesture.west": [
+      "kara/gesture_west_0.png",
+      "kara/gesture_west_1.png",
+      "kara/gesture_west_2.png",
+      "kara/gesture_west_3.png",
+      "kara/gesture_west_4.png",
+      "kara/gesture_west_5.png",
+      "kara/gesture_west_6.png",
+      "kara/gesture_west_7.png",
+      "kara/gesture_west_8.png"
+    ],
+    "approved_kara.blink.south": [
+      "../agent-demo/approved-motion/kara/blink_south.png"
+    ],
+    "approved_kara.rot.south": [
+      "../agent-demo/approved-motion/kara/rot_south.png"
+    ],
+    "approved_kara.walk.south": [
+      "../agent-demo/approved-motion/kara/walk_south_0.png",
+      "../agent-demo/approved-motion/kara/walk_south_1.png",
+      "../agent-demo/approved-motion/kara/walk_south_2.png",
+      "../agent-demo/approved-motion/kara/walk_south_3.png",
+      "../agent-demo/approved-motion/kara/walk_south_4.png",
+      "../agent-demo/approved-motion/kara/walk_south_5.png",
+      "../agent-demo/approved-motion/kara/walk_south_6.png",
+      "../agent-demo/approved-motion/kara/walk_south_7.png"
+    ],
+    "approved_kara.rot.south-east": [
+      "../agent-demo/approved-motion/kara/rot_south-east.png"
+    ],
+    "approved_kara.walk.south-east": [
+      "../agent-demo/approved-motion/kara/walk_south-east_0.png",
+      "../agent-demo/approved-motion/kara/walk_south-east_1.png",
+      "../agent-demo/approved-motion/kara/walk_south-east_2.png",
+      "../agent-demo/approved-motion/kara/walk_south-east_3.png",
+      "../agent-demo/approved-motion/kara/walk_south-east_4.png",
+      "../agent-demo/approved-motion/kara/walk_south-east_5.png",
+      "../agent-demo/approved-motion/kara/walk_south-east_6.png",
+      "../agent-demo/approved-motion/kara/walk_south-east_7.png"
+    ],
+    "approved_kara.rot.east": [
+      "../agent-demo/approved-motion/kara/rot_east.png"
+    ],
+    "approved_kara.walk.east": [
+      "../agent-demo/approved-motion/kara/walk_east_0.png",
+      "../agent-demo/approved-motion/kara/walk_east_1.png",
+      "../agent-demo/approved-motion/kara/walk_east_2.png",
+      "../agent-demo/approved-motion/kara/walk_east_3.png",
+      "../agent-demo/approved-motion/kara/walk_east_4.png",
+      "../agent-demo/approved-motion/kara/walk_east_5.png",
+      "../agent-demo/approved-motion/kara/walk_east_6.png",
+      "../agent-demo/approved-motion/kara/walk_east_7.png"
+    ],
+    "approved_kara.rot.north-east": [
+      "../agent-demo/approved-motion/kara/rot_north-east.png"
+    ],
+    "approved_kara.walk.north-east": [
+      "../agent-demo/approved-motion/kara/walk_north-east_0.png",
+      "../agent-demo/approved-motion/kara/walk_north-east_1.png",
+      "../agent-demo/approved-motion/kara/walk_north-east_2.png",
+      "../agent-demo/approved-motion/kara/walk_north-east_3.png",
+      "../agent-demo/approved-motion/kara/walk_north-east_4.png",
+      "../agent-demo/approved-motion/kara/walk_north-east_5.png",
+      "../agent-demo/approved-motion/kara/walk_north-east_6.png",
+      "../agent-demo/approved-motion/kara/walk_north-east_7.png"
+    ],
+    "approved_kara.rot.north": [
+      "../agent-demo/approved-motion/kara/rot_north.png"
+    ],
+    "approved_kara.walk.north": [
+      "../agent-demo/approved-motion/kara/walk_north_0.png",
+      "../agent-demo/approved-motion/kara/walk_north_1.png",
+      "../agent-demo/approved-motion/kara/walk_north_2.png",
+      "../agent-demo/approved-motion/kara/walk_north_3.png",
+      "../agent-demo/approved-motion/kara/walk_north_4.png",
+      "../agent-demo/approved-motion/kara/walk_north_5.png",
+      "../agent-demo/approved-motion/kara/walk_north_6.png",
+      "../agent-demo/approved-motion/kara/walk_north_7.png"
+    ],
+    "approved_kara.rot.north-west": [
+      "../agent-demo/approved-motion/kara/rot_north-west.png"
+    ],
+    "approved_kara.walk.north-west": [
+      "../agent-demo/approved-motion/kara/walk_north-west_0.png",
+      "../agent-demo/approved-motion/kara/walk_north-west_1.png",
+      "../agent-demo/approved-motion/kara/walk_north-west_2.png",
+      "../agent-demo/approved-motion/kara/walk_north-west_3.png",
+      "../agent-demo/approved-motion/kara/walk_north-west_4.png",
+      "../agent-demo/approved-motion/kara/walk_north-west_5.png",
+      "../agent-demo/approved-motion/kara/walk_north-west_6.png",
+      "../agent-demo/approved-motion/kara/walk_north-west_7.png"
+    ],
+    "approved_kara.rot.west": [
+      "../agent-demo/approved-motion/kara/rot_west.png"
+    ],
+    "approved_kara.walk.west": [
+      "../agent-demo/approved-motion/kara/walk_west_0.png",
+      "../agent-demo/approved-motion/kara/walk_west_1.png",
+      "../agent-demo/approved-motion/kara/walk_west_2.png",
+      "../agent-demo/approved-motion/kara/walk_west_3.png",
+      "../agent-demo/approved-motion/kara/walk_west_4.png",
+      "../agent-demo/approved-motion/kara/walk_west_5.png",
+      "../agent-demo/approved-motion/kara/walk_west_6.png",
+      "../agent-demo/approved-motion/kara/walk_west_7.png"
+    ],
+    "approved_kara.rot.south-west": [
+      "../agent-demo/approved-motion/kara/rot_south-west.png"
+    ],
+    "approved_kara.walk.south-west": [
+      "../agent-demo/approved-motion/kara/walk_south-west_0.png",
+      "../agent-demo/approved-motion/kara/walk_south-west_1.png",
+      "../agent-demo/approved-motion/kara/walk_south-west_2.png",
+      "../agent-demo/approved-motion/kara/walk_south-west_3.png",
+      "../agent-demo/approved-motion/kara/walk_south-west_4.png",
+      "../agent-demo/approved-motion/kara/walk_south-west_5.png",
+      "../agent-demo/approved-motion/kara/walk_south-west_6.png",
+      "../agent-demo/approved-motion/kara/walk_south-west_7.png"
+    ],
+    "approved_kara.sit.south": [
+      "../agent-demo/approved-motion/kara/sit_south.png"
+    ],
+    "approved_kara.gesture.south": [
+      "../agent-demo/approved-motion/kara/gesture_south_0.png",
+      "../agent-demo/approved-motion/kara/gesture_south_1.png",
+      "../agent-demo/approved-motion/kara/gesture_south_2.png",
+      "../agent-demo/approved-motion/kara/gesture_south_3.png",
+      "../agent-demo/approved-motion/kara/gesture_south_4.png",
+      "../agent-demo/approved-motion/kara/gesture_south_5.png",
+      "../agent-demo/approved-motion/kara/gesture_south_6.png",
+      "../agent-demo/approved-motion/kara/gesture_south_7.png",
+      "../agent-demo/approved-motion/kara/gesture_south_8.png"
+    ],
+    "approved_kara.sit.east": [
+      "../agent-demo/approved-motion/kara/sit_east.png"
+    ],
+    "approved_kara.gesture.east": [
+      "../agent-demo/approved-motion/kara/gesture_east_0.png",
+      "../agent-demo/approved-motion/kara/gesture_east_1.png",
+      "../agent-demo/approved-motion/kara/gesture_east_2.png",
+      "../agent-demo/approved-motion/kara/gesture_east_3.png",
+      "../agent-demo/approved-motion/kara/gesture_east_4.png",
+      "../agent-demo/approved-motion/kara/gesture_east_5.png",
+      "../agent-demo/approved-motion/kara/gesture_east_6.png",
+      "../agent-demo/approved-motion/kara/gesture_east_7.png",
+      "../agent-demo/approved-motion/kara/gesture_east_8.png"
+    ],
+    "approved_kara.sit.north": [
+      "../agent-demo/approved-motion/kara/sit_north.png"
+    ],
+    "approved_kara.gesture.north": [
+      "../agent-demo/approved-motion/kara/gesture_north_0.png",
+      "../agent-demo/approved-motion/kara/gesture_north_1.png",
+      "../agent-demo/approved-motion/kara/gesture_north_2.png",
+      "../agent-demo/approved-motion/kara/gesture_north_3.png",
+      "../agent-demo/approved-motion/kara/gesture_north_4.png",
+      "../agent-demo/approved-motion/kara/gesture_north_5.png",
+      "../agent-demo/approved-motion/kara/gesture_north_6.png",
+      "../agent-demo/approved-motion/kara/gesture_north_7.png",
+      "../agent-demo/approved-motion/kara/gesture_north_8.png"
+    ],
+    "approved_kara.sit.west": [
+      "../agent-demo/approved-motion/kara/sit_west.png"
+    ],
+    "approved_kara.gesture.west": [
+      "../agent-demo/approved-motion/kara/gesture_west_0.png",
+      "../agent-demo/approved-motion/kara/gesture_west_1.png",
+      "../agent-demo/approved-motion/kara/gesture_west_2.png",
+      "../agent-demo/approved-motion/kara/gesture_west_3.png",
+      "../agent-demo/approved-motion/kara/gesture_west_4.png",
+      "../agent-demo/approved-motion/kara/gesture_west_5.png",
+      "../agent-demo/approved-motion/kara/gesture_west_6.png",
+      "../agent-demo/approved-motion/kara/gesture_west_7.png",
+      "../agent-demo/approved-motion/kara/gesture_west_8.png"
+    ],
+    "approved_kara.type.north": [
+      "../agent-demo/approved-motion/kara/type_north_0.png",
+      "../agent-demo/approved-motion/kara/type_north_1.png",
+      "../agent-demo/approved-motion/kara/type_north_2.png",
+      "../agent-demo/approved-motion/kara/type_north_3.png"
     ]
   }
 }

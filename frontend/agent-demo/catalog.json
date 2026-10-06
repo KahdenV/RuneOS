@@ -733,6 +733,23 @@
       "sourceStandingHeight": 76,
       "readyForStation": true,
       "renderSet": "approved_tylerdurden"
+    },
+    {
+      "id": "kara",
+      "skin": "kara",
+      "name": "Kara",
+      "stage": "complete",
+      "targetStandingHeight": 19,
+      "walkFramesReady": true,
+      "walkReady": true,
+      "complete": true,
+      "retainedOriginal": false,
+      "sourceStandingHeight": 76,
+      "readyForStation": true,
+      "renderSet": "approved_kara",
+      "motionSource": "custom-kara",
+      "motionMethod": "custom-sprite-set",
+      "style": "Detailed angelic android companion; white-gold armor, pink light core, halo and feather-like panels"
     }
   ]
 }
