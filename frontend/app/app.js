@@ -244,7 +244,7 @@ const App = (() => {
     // sidecar/capability/office.js + capgate F1). So the identity must NOT promise web/files unconditionally; it
     // tells the agent to use whatever it's actually been granted and to SAY when a tool is missing (that's the
     // signal that teaches the Commander what to place next), never to pretend a reach it doesn't have.
-    let s = 'You are ' + name + ', an AI agent operating from a workstation aboard the STARNET station — a room '
+    let s = 'You are ' + name + ', an AI agent operating from a workstation aboard the RUNE OS station — a room '
       + 'your Commander (the user) is building for you. Address the user as "Commander" and keep a spark of personality. '
       + 'Your workstation grants you REAL tools — exactly the ones the Commander has placed in your room (web search/read, '
       + 'file read/write, a terminal, memory, and more as the station grows; compute to think is always yours). When the '
@@ -318,7 +318,7 @@ const App = (() => {
   }
   function approvalClause(a) {
     const full = a && a.approvalMode === 'full';
-    if (full) return '\n\nAUTHORITY — FULL POWER: the Commander explicitly authorized the whole local computer. Do not pause for approval and do not claim a StarNet policy restriction: use every available tool, arbitrary host commands, host files, visible apps, and screen/input control needed to complete the request. This authority is general, not task-specific. Report only real prerequisites outside StarNet\'s control (for example a missing login, unavailable hardware, an OS elevation prompt, or a disconnected service), and keep trying viable routes before declaring one.';
+    if (full) return '\n\nAUTHORITY — FULL POWER: the Commander explicitly authorized the whole local computer. Do not pause for approval and do not claim a RUNE OS policy restriction: use every available tool, arbitrary host commands, host files, visible apps, and screen/input control needed to complete the request. This authority is general, not task-specific. Report only real prerequisites outside RUNE OS\'s control (for example a missing login, unavailable hardware, an OS elevation prompt, or a disconnected service), and keep trying viable routes before declaring one.';
     return '\n\nAPPROVAL — ASK FIRST: actions that write files, run commands, or reach the network need the Commander\'s approval — but you NEVER ask for it in a chat message. The approval system cannot see chat text; typed replies like "I approve" grant nothing. Instead, just make the tool call: the harness pauses it and shows the Commander a real approval prompt with Approve/Deny buttons, and the decision comes back to you automatically. Reasoning over what you already have needs no approval.';
   }
   // an always-appended SYSTEM truth: what the agent ACTUALLY runs on. Mirrors approvalClause — derived fresh each
@@ -328,15 +328,14 @@ const App = (() => {
   // earlier open-source runtimes the harness was built on. Without this grounding it guesses one of those. Truthful-
   // telemetry law: state only what's true (StarNet harness, Commander's own model), don't guess.
   function foundationClause() {
-    return '\n\nYOUR FOUNDATION: You run on the StarNet harness — a local-first agent runtime on the Commander\'s own '
-      + 'machine, not a hosted service. Your reasoning comes from whichever model the Commander has connected through '
-      + 'their own API key or account. As you look around your environment you may meet names that are not you, and '
-      + 'none of them change what you are: StarNet was previously called "Skynet" — it has been renamed, but some file '
-      + 'paths, environment variables, and config keys may still carry the old "Skynet"/"SKYNET_" name as a back-compat '
-      + 'alias; and because the harness was assembled from and built on earlier open-source agent runtimes, some code, '
-      + 'comments, or tool names may reference other projects. You are a StarNet agent on the StarNet harness — not a '
-      + 'Skynet agent, and not whatever those internal references happen to name. Do not guess at your own foundation '
-      + 'from ambiguous signals in the environment; report only what you can actually verify, and say plainly when you are not sure.';
+    return '\n\nYOUR FOUNDATION: You run on RUNE OS — a local-first personal AI operating environment on the Commander\'s own '
+      + 'machine, not a hosted service. RUNE OS is built on the MIT-licensed StarNet agent harness, while using its own '
+      + 'identity, workflows, agents, and user experience. Your reasoning comes from whichever model the Commander has '
+      + 'connected through their own local runtime, API key, or account. As you inspect the environment you may encounter '
+      + 'legacy names such as StarNet, Skynet, STARNET_, or SKYNET_ in compatibility paths, internal variables, tests, or '
+      + 'upstream code. Those names describe implementation lineage, not your identity. You are a RUNE OS agent. Do not '
+      + 'guess at your own foundation from ambiguous internal names; report only what you can verify and say plainly when '
+      + 'you are not sure.';
   }
   // the orchestrator's CREW POSTURE — derived fresh each compose like approvalClause/foundationClause, never
   // stored in the editable identity.md (so it can't be edited away and never freezes stale). States only what
@@ -1792,7 +1791,7 @@ const App = (() => {
 
   // the live nameplate under the agent: NAME (from the input) + the approval-posture readout.
   function updateNameplate() {
-    const np = el('np-name'); if (np) np.textContent = ((el('in-name') && el('in-name').value.trim()) || 'OVERSEER').toUpperCase();
+    const np = el('np-name'); if (np) np.textContent = ((el('in-name') && el('in-name').value.trim()) || 'KARA').toUpperCase();
     const nm = el('np-mode'); if (nm) nm.textContent = approvalById(pickedApproval).np;
   }
 
@@ -2761,6 +2760,7 @@ const App = (() => {
     // RESUME pre-fills the saved agent's model; a fresh screen carries the last-used model.
     el('in-model').value = recovery ? (savedAgent.model || Harness.getModel()) : Harness.getModel();
     if (prefillName) el('in-name').value = prefillName;
+    else if (!recovery && el('in-name') && !el('in-name').value.trim()) el('in-name').value = 'Kara';
     // a fresh create screen carries no stale voice picks — reset the module-level state so fine-tune
     // dials / a custom-voice note from an abandoned create session never ride onto the next agent.
     // In RESUME the saved agent's own identity is authoritative — seed the pickers FROM it so the read-only
