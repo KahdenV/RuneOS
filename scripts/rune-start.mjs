@@ -27,6 +27,8 @@ for (const dir of [profileRoot, workspaces, home, local, roaming, xdg]) {
   mkdirSync(dir, { recursive: true });
 }
 
+const runePort = String(process.env.RUNEOS_PORT || '8790');
+
 const env = {
   ...process.env,
 
@@ -43,11 +45,17 @@ const env = {
   XDG_DATA_HOME: xdg,
 
   RUNEOS_PROFILE_ROOT: profileRoot,
+
+  // A separate browser origin keeps RUNE's localStorage away from StarNet/dev
+  // sessions that use the upstream default port 8787.
+  STARNET_PORT: runePort,
+  SKYNET_PORT: runePort,
 };
 
 console.log('[RUNE OS] isolated profile:', profileRoot);
 console.log('[RUNE OS] workspaces:', workspaces);
 console.log('[RUNE OS] installed StarNet data is not used by this launch.');
+console.log('[RUNE OS] open: http://127.0.0.1:' + runePort);
 
 const child = spawn(process.execPath, [path.join(repoRoot, 'sidecar', 'index.js')], {
   cwd: repoRoot,
