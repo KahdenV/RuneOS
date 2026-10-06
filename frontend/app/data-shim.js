@@ -60,6 +60,7 @@ DATA.SKINS = {
   candyprincess: {"name":"Candy Princess","set":"approved_candyprincess","scale":0.25,"sourceStandingHeight":76},
   bunnycutie: {"name":"Bunny Cutie","set":"approved_bunnycutie","scale":0.25,"sourceStandingHeight":76},
   tylerdurden: {"name":"Tyler Durden","set":"approved_tylerdurden","scale":0.25,"sourceStandingHeight":76},
+  kara: {"name":"Kara","set":"approved_kara","scale":0.25,"sourceStandingHeight":76},
   tonymontana: {"name":"Tony Montana","set":"approved_tonymontana","scale":0.25,"sourceStandingHeight":76},
   gothgirl: {"name":"Goth Girl","set":"approved_gothgirl","scale":0.25,"sourceStandingHeight":76},
   bikini: {"name":"Beach Babe","set":"approved_bikini","scale":0.25,"sourceStandingHeight":76},
